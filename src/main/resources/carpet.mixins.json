@@ -1,0 +1,156 @@
+{
+  "required": true,
+  "package": "carpet.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CommandManagerMixin",
+
+    "FillCommandMixin",
+    "CloneCommandMixin",
+    "SetBlockCommandMixin",
+    "World_fillUpdatesMixin",
+    "WorldChunk_fillUpdatesMixin",
+    "StructureBlockBlockEntity_fillUpdatesMixin",
+    "Structure_fillUpdatesMixin",
+
+    "ServerMetadata_motdMixin",
+
+    "MinecraftServer_coreMixin",
+
+    "MinecraftServer_tickspeedMixin",
+    "World_tickMixin",
+    "ServerWorld_tickMixin",
+    "ServerChunkManager_tickMixin",
+    "ThreadedAnvilChunkStorage_tickMixin",
+
+    "MobEntityMixin",
+    "ServerWorld_unloadedEntityMixin",
+    "MobEntity_leashMixin",
+    "EntityTrackerEntry_leashFixMixin",
+
+    "VillagerEntity_aiMixin",
+
+    "ServerWorld_fakePlayersMixin",
+    "ThrownEnderpearlEntity_fakePlayersMixin",
+
+    "ServerPlayNetworkHandler_coreMixin",
+
+    "ServerPlayNetworkHandler_tickMixin",
+    "MinecraftServer_scarpetMixin",
+    "PlayerListHeaderS2CPacketMixin",
+    "WeightedPickerEntryMixin",
+    "ExperienceOrbEntityMixin",
+    "PlayerActionC2SPacketMixin",
+    "ServerPlayerEntityMixin",
+    "PlayerManagerMixin",
+    "RedstoneWireBlockMixin",
+    "CarpetBlockMixin",
+    "SummonCommandMixin",
+    "PistonHandler_pushLimitMixin",
+    "PoweredRailBlock_powerLimitMixin",
+    "LivingEntity_maxCollisionsMixin",
+    "ServerWorld_onePlayerSleepingMixin",
+    "KelpFeatureMixin",
+    "CoralBlockMixin",
+    "CoralFeatureMixin",
+    "StructurePieceMixin",
+    "StructureFeatureMixin",
+    "ShipwreckGeneratorPieceMixin",
+    "OceanRuinGeneratorPieceMixin",
+    "IglooGeneratorPieceMixin",
+    "FossilFeatureMixin",
+    "BuriedTreasureGeneratorPieceMixin",
+    "GravityStructureProcessorMixin",
+    "ServerPlayNetworkHandler_scarpetEventsMixin",
+    "ServerPlayerInteractionManager_scarpetEventsMixin",
+    "PlayerEntity_parrotMixin",
+    "SaplingBlockMixin",
+    "EntityMixin",
+
+    "GuardianEntityMixin",
+    "DesertPyramidFeatureMixin",
+    "HuskEntityMixin",
+
+    "OverworldChunkGeneratorMixin",
+
+    "ServerChunkManagerMixin",
+    "SpawnHelperMixin",
+
+    "DirectionMixin",
+    "ServerPlayerInteractionManager_cactusMixin",
+    "HopperBlock_cactusMixin",
+    "ItemUsageContext_cactusMixin",
+    "DispenserBlock_cactusMixin",
+    "PistonBlock_rotatorBlockMixin",
+
+    "ServerPlayNetworkHandler_antiCheatDisabledMixin",
+
+    "PortalForcer_portalCachingMixin",
+    "PortalBlock_portalCachingMixin",
+
+    "Entity_portalSuffocationMixin",
+    "PortalForcer_portalSuffocationMixin",
+
+    "PlayerEntity_horseFixMixin",
+
+    "ServerPlayerInteractionManager_ghostBlocksMixin",
+
+    "HopperBlockEntityMixin",
+    "ContainerMixin",
+    "ClientConnectionMixin",
+    "ItemEntityMixin",
+    "TntBlockMixin",
+    "ExplosionMixin",
+
+    "TntEntityMixin",
+    "ProjectileEntityMixin",
+    "FallingBlockEntityMixin",
+    "ThrownEntityMixin",
+    "EntityNavigation_pathfindingMixin",
+
+    "FloatingIslandsChunkGeneratorMixin",
+    "EndCityFeatureMixin",
+
+    "InfestedBlockMixin",
+    "PlayerEntityMixin",
+
+    "PistonBlock_qcMixin",
+    "DispenserBlock_qcMixin",
+
+    "PickaxeItem_missingToolsMixin",
+    "ShearsItem_missingToolsMixin",
+
+    "Entity_scarpetEventsMixin",
+    "LivingEntity_scarpetEventsMixin",
+    "DamageTracker_scarpetEventMixin",
+
+
+    "PistonBlock_movableTEMixin",
+    "PistonBlockEntity_movableTEMixin",
+    "World_movableTEMixin",
+    "WorldChunk_movableTEMixin",
+    "PistonHandler_movableTEMixin"
+  ],
+  "client": [
+    "RenderTickCounter_tickSpeedMixin",
+    "MinecraftClientMixin",
+
+    "MinecraftClient_pausedShakeMixin",
+    "GameRenderer_pausedShakeMixin",
+
+    "IntegratedServerMixin",
+    "InGameHudMixin",
+    "PlayerListHudMixin",
+
+    "ClientPlayerInteractionManager_ghostBlocksMixin",
+
+    "BlockEntityRenderDispatcher_movableTEMixin",
+    "PistonBlockEntityRenderer_movableTEMixin"
+  ],
+  "server": [
+    "MinecraftDedicatedServerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
